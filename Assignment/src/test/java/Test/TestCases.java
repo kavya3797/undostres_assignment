@@ -68,6 +68,7 @@ public class TestCases {
          //to switch control from child window to parent window
 		 driver.switchTo().window(winHandleBefore);
 		 
+		 //form submission to verify recharge request
 		 driver.findElement(By.id("loginForm")).submit();
 		 Thread.sleep(4000);
 		 
