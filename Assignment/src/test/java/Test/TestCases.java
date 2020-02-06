@@ -72,7 +72,15 @@ public class TestCases {
 		 driver.findElement(By.id("loginForm")).submit();
 		 Thread.sleep(4000);
 		 
-	    
+		 //to verify recharge submission is successful
+		 String actualtext="Recarga Saldo de Telcel al número 5523261151";
+		 
+		 String  textonEle=driver.findElement(By.xpath("//*[@id=\"mainBlueContainer\"]/div/div[1]/div[1]/div/div/div/div[1]/div[2]/div[1]/span")).getText();
+		 try{        
+		        Assert.assertEquals(actualtext, textonEle);            
+		    }catch(AssertionError e){           
+		         System.out.print("recharge failed");  
+		    }     
        
 	}
 	
