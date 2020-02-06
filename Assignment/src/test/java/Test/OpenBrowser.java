@@ -22,7 +22,7 @@ public class OpenBrowser {
 	public  void setUP() throws Exception
 	{
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\hi\\git\\undostres_repository\\Assignment\\src\\test\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
 
