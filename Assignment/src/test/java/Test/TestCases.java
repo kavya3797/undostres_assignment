@@ -72,7 +72,7 @@ public class TestCases {
 		 
 		 //form submission to verify recharge request
 		 driver.findElement(By.id("loginForm")).submit();
-		 Thread.sleep(4000);
+		 Thread.sleep(8000);
 		 
 		 //to verify recharge submission is successful
 		 String actualtext="Recarga Saldo de Telcel al número 5523261151";
