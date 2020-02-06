@@ -32,12 +32,14 @@ public class TestCases {
         //Thread.sleep(8000);
         
         // to verify user reached to payment screen
-        /*String expectedUrl = "https://prueba.undostres.com.mx/payment.php";
+        String expectedUrl = "https://prueba.undostres.com.mx/payment.php";
         String currentUrl= driver.getCurrentUrl();
-        if(expectedUrl==currentUrl)
-        	System.out.println("user navigated to payment screen");
-        */
-        
+        try{        
+	        Assert.assertEquals(expectedUrl, currentUrl);            
+	    }catch(AssertionError e){           
+	         System.out.print("failed to rech payment screen");  
+	    }     
+   
         //enter the following details under card name:Test ,Card number:4111111111111111 ,month=11,date=2025,cvv=111
         driver.findElement(By.xpath("//*[@id=\"payment-form\"]/div[1]/div[1]/div/div/input")).sendKeys("Test");
 		Thread.sleep(4000);
