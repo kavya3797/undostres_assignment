@@ -29,7 +29,7 @@ public class TestCases {
         Thread.sleep(4000);
         //On payment screen click on tarjeta
         driver.findElement(By.xpath("//*[@id=\"col-sm-12\"]/form/div/div[1]/div[1]/div[3]/div/button")).click();
-        //Thread.sleep(8000);
+        Thread.sleep(8000);
         
         // to verify user reached to payment screen
         String expectedUrl = "https://prueba.undostres.com.mx/payment.php";
