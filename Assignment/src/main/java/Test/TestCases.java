@@ -29,7 +29,7 @@ public class TestCases {
         Thread.sleep(4000);
         //On payment screen click on tarjeta
         driver.findElement(By.xpath("//*[@id=\"col-sm-12\"]/form/div/div[1]/div[1]/div[3]/div/button")).click();
-        Thread.sleep(8000);
+        Thread.sleep(10000);
         
         // to verify user reached to payment screen
         String expectedUrl = "https://prueba.undostres.com.mx/payment.php";
@@ -39,7 +39,7 @@ public class TestCases {
 	    }catch(AssertionError e){           
 	         System.out.print("failed to rech payment screen");  
 	    }     
-   
+        Thread.sleep(4000);
         //enter the following details under card name:Test ,Card number:4111111111111111 ,month=11,date=2025,cvv=111
         driver.findElement(By.xpath("//*[@id=\"payment-form\"]/div[1]/div[1]/div/div/input")).sendKeys("Test");
 		Thread.sleep(4000);
