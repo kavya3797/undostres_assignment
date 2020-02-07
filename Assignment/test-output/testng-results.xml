@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35986" started-at="2020-02-07T13:25:13 IST" finished-at="2020-02-07T13:25:49 IST">
+  <suite name="Default suite" duration-ms="41332" started-at="2020-02-07T14:25:12 IST" finished-at="2020-02-07T14:25:53 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35986" started-at="2020-02-07T13:25:13 IST" finished-at="2020-02-07T13:25:49 IST">
+    <test name="Default test" duration-ms="41332" started-at="2020-02-07T14:25:12 IST" finished-at="2020-02-07T14:25:53 IST">
       <class name="Test.OpenBrowser">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Test.OpenBrowser@6e6c3152]" name="setUP" is-config="true" duration-ms="5537" started-at="2020-02-07T13:25:13 IST" finished-at="2020-02-07T13:25:19 IST">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:Test.OpenBrowser@6e6c3152]" name="setUP" is-config="true" duration-ms="5563" started-at="2020-02-07T14:25:12 IST" finished-at="2020-02-07T14:25:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="FAIL" signature="execute()[pri:0, instance:Test.OpenBrowser@6e6c3152]" name="execute" duration-ms="29840" started-at="2020-02-07T13:25:19 IST" finished-at="2020-02-07T13:25:49 IST">
+        <test-method status="FAIL" signature="execute()[pri:0, instance:Test.OpenBrowser@6e6c3152]" name="execute" duration-ms="35155" started-at="2020-02-07T14:25:17 IST" finished-at="2020-02-07T14:25:52 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="payment-form"]/div[1]/div[1]/div/div/input"}
@@ -22,8 +22,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-GHIJIVIR', ip: '10.10.64.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\hi\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62709}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
-Session ID: b7f1f65b97e9c6fc16461eb6dea274b6
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\hi\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64130}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 24f2a8fbeab9977e16da112ba88b3aeb
 *** Element info: {Using=xpath, value=//*[@id="payment-form"]/div[1]/div[1]/div/div/input}]]>
             </message>
             <full-stacktrace>
@@ -35,8 +35,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-GHIJIVIR', ip: '10.10.64.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\hi\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62709}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
-Session ID: b7f1f65b97e9c6fc16461eb6dea274b6
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\hi\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64130}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}
+Session ID: 24f2a8fbeab9977e16da112ba88b3aeb
 *** Element info: {Using=xpath, value=//*[@id="payment-form"]/div[1]/div[1]/div/div/input}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.OpenBrowser@6e6c3152]" name="tearDown" is-config="true" duration-ms="583" started-at="2020-02-07T13:25:49 IST" finished-at="2020-02-07T13:25:49 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.OpenBrowser@6e6c3152]" name="tearDown" is-config="true" duration-ms="581" started-at="2020-02-07T14:25:52 IST" finished-at="2020-02-07T14:25:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
