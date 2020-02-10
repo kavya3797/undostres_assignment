@@ -3,6 +3,8 @@ package Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 
@@ -30,6 +32,10 @@ public class TestCases {
         //On payment screen click on tarjeta
         driver.findElement(By.xpath("//*[@id=\"col-sm-12\"]/form/div/div[1]/div[1]/div[3]/div/button")).click();
         Thread.sleep(10000);
+        // wait untill page loads
+        WebDriverWait wait = new WebDriverWait(driver, 40);
+        wait.until(ExpectedConditions.urlToBe("https://prueba.undostres.com.mx/payment.php"));
+
         
         // to verify user reached to payment screen
         String expectedUrl = "https://prueba.undostres.com.mx/payment.php";
@@ -85,8 +91,4 @@ public class TestCases {
 		    }     
        
 	}
-	
-
-
-
 }
